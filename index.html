@@ -12,7 +12,15 @@
 
 <body>
     <header>
-        <h1 class="title">Brooklyn Crum</h1>
+        <h1 class="title" id="demo">Brooklyn Crum</h1>
+        <p>Click this button for a surprise!</p>
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "SURPRISE!!!!!";
+                document.getElementById("demo").style.color = "Blue";
+            }
+        </script>
+        <button type="button" onclick="myFunction()">Push Here!</button>
     </header>
     <div id="flexbox">
         <img class="mug" src="images/BrooklynMugShot.JPG" alt="Brooklyn Mug Shot Missing">
@@ -73,7 +81,7 @@
         <a href="BigDataPaper_BCrum.edited.pdf">Click here to see my Big Data Paper!</a>
     </h4>
     <h4 class="title">
-        <a href="Brooklyn Crum _ Final Portfolio _ PDF.pdf">Click here to see my German Writing Portfolio!</a>
+        <a href="Brooklyn_Crum_Final_Portfolio_PDF.pdf">Click here to see my German Writing Portfolio!</a>
     </h4>
     <h4 class="title">
         <a href="ProjectPaper_Brooklyn_Crum.pdf">Click here to see my Business Analytics Paper!</a>
@@ -107,7 +115,7 @@
             </td>
             <td>
                 <a href="FieldsReport.pdf">
-                    <svg width="50" height="50" alt="Star Image Missing">
+                    <svg width="50" height="50" aria-label="[title + description]">
                         <polygon points="15,0 50,29 0,29 45,0 25,50" style="stroke:darkslategray;fill:mistyrose;stroke-width:3;fill-rule:evenodd;" />
                     </svg>
                 </a>
@@ -148,8 +156,4 @@
         </tr>
     </table>
 
-</body>
-
-</html>
-
-
+</body></html>
