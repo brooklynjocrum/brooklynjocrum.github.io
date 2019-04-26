@@ -17,12 +17,15 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
 }
+
+/* id for personal paragraph and shifts it to right of image */ 
 #aboutme {
     flex: 1;
     margin-top: 0;
     padding-left: 10px;
     border: 1px solid white;
 }
+/* change font of title*/
 .title {
     font-family: cursive;
     color: slategrey;
@@ -63,6 +66,7 @@ canvas {
     position: absolute;
     z-index: -1;
 }
+/* created so video and audio files were within canvas */
 .Randoms{
     margin-left: 15px;
     padding-left: 15px;
