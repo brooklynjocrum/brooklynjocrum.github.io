@@ -58,6 +58,7 @@ p {
     height: 50px;
     width: 50px;
 }
+
 #flexbox {
     display: flex;
     border: 1px solid;
