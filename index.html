@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-
+    <! Creating a title for my website and adding a website icon >
     <title>Brooklyn Crum Webpage</title>
     <link rel="icon" type="image/ico" href="images/heart.ico" />
 </head>
@@ -17,11 +17,13 @@
         <h1 class="title" id="demo">Brooklyn Crum</h1>
         <p>Click this button for a surprise!</p>
         <script>
+            // creating a function that when the button is pushed, the title changes from name to surprise and from gray to blue //
             function myFunction() {
                 document.getElementById("demo").innerHTML = "SURPRISE!!!!!";
                 document.getElementById("demo").style.color = "Blue";
             }
         </script>
+        <! button that calls javascript function created called myFunction >
         <button type="button" onclick="myFunction()">Push Here!</button>
     </header>
     <div id="flexbox">
@@ -116,6 +118,7 @@
                 </a>
             </td>
             <td>
+                <! SVG icon that links to fields report. includes aria-label (alt text) >
                 <a href="FieldsReport.pdf" aria-label="[title + description]">
                     <svg width="50" height="50" >
                         <polygon points="15,0 50,29 0,29 45,0 25,50" style="stroke:darkslategray;fill:mistyrose;stroke-width:3;fill-rule:evenodd;" />
@@ -126,7 +129,7 @@
         </tr>
     </table>
     <br>
-
+    <! using canvas to create box around audio and video files
     <canvas id="canvas" width="360" height="340" style="border:3px solid #000000;"></canvas>
 
     <table>
