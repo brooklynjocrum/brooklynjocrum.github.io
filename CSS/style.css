@@ -1,16 +1,19 @@
 /*Brooklyn Crum*/
-body{
-     background-color: mistyrose;
+body {
+    background-color: mistyrose;
 }
+
 h1 {
     font-size: 75px;
 }
+
 h2 {
     font-size: 40px;
     margin: 0;
     padding: 0;
 }
-h4{
+
+h4 {
     font-size: 15Px;
 }
 
@@ -19,42 +22,50 @@ p {
     font-size: 20px;
 }
 
-/* id for personal paragraph and shifts it to right of image */ 
+/* id for personal paragraph and shifts it to right of image */
 #aboutme {
     flex: 1;
     margin-top: 0;
     padding-left: 10px;
     border: 1px solid white;
 }
+
 /* change font of title*/
 .title {
     font-family: cursive;
     color: slategrey;
 }
+
 .mug {
     height: 360px;
     width: 240px;
 }
+
 #classes {
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 #accomplishments {
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 #involvement {
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 #volunteer {
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 #work {
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 .social {
     height: 50px;
     width: 50px;
@@ -64,12 +75,14 @@ p {
     display: flex;
     border: 1px solid;
 }
+
 canvas {
     position: absolute;
     z-index: -1;
 }
+
 /* created so video and audio files were within canvas */
-.Randoms{
+.Randoms {
     margin-left: 15px;
     padding-left: 15px;
 }
